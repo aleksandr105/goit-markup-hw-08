@@ -7,6 +7,7 @@
   align-items: center;
 }
 .header-mobil-container {
+  width: 100%;
   display: flex;
   @media screen and (max-width: 767px) {
     display: none;
@@ -125,14 +126,6 @@
   .header-contacts-mail:focus & {
     fill: $color_hover_active;
   }
-}
-
-.button-menu {
-  width: 40px;
-  height: 40px;
-  background-color: #ffffff;
-  border: none;
-  margin-left: auto;
 }
 
 .button-menu-icon {
