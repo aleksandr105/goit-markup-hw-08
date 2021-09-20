@@ -4,6 +4,13 @@
 
 .header-container {
   display: flex;
+  align-items: center;
+}
+.header-mobil-container {
+  display: flex;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 }
 
 .header-nav {
@@ -116,6 +123,26 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   .header-contacts-mail:hover &,
   .header-contacts-mail:focus & {
+    fill: $color_hover_active;
+  }
+}
+
+.button-menu {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border: none;
+  margin-left: auto;
+}
+
+.button-menu-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+
+  .button-menu:hover &,
+  .button-menu:focus & {
     fill: $color_hover_active;
   }
 }
