@@ -1,5 +1,9 @@
 body {
   font-family: "roboto", sans-serif;
+
+  &.modal-open {
+    overflow: hidden;
+  }
 }
 
 p,
