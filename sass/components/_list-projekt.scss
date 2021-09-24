@@ -2,7 +2,7 @@
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
-    // margin: -15px;
+    margin: -15px;
   }
 }
 
@@ -11,12 +11,15 @@
     &:not(:last-child) {
       margin-bottom: 30px;
     }
-    display: none;
-    @media screen and (min-width: 768px) {
-      margin: 15px;
-      display: none;
-      // width: calc((100% - 4 * 15px) / 2);
-    }
+  }
+
+  @media screen and (min-width: 768px) {
+    margin: 15px;
+    width: calc((100% - 4 * 15px) / 2);
+  }
+  @media screen and (min-width: 1200px) {
+    margin: 15px;
+    width: calc((100% - 6 * 15px) / 3);
   }
 }
 
@@ -82,9 +85,7 @@
   padding: 20px 24px;
   border: 1px solid#EEEEEE;
   border-top: none;
-  // &:nth(:last-child) {
-  //   flex-grow: 1;
-  // }
+  flex-grow: 1;
 }
 
 .list-projekt-category {
