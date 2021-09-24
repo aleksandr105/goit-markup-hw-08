@@ -1429,11 +1429,13 @@ img {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin: -15px;
   }
 }
 
 @media screen and (max-width: 767px) {
+  .list-projekt-item {
+    display: none;
+  }
   .list-projekt-item:not(:last-child) {
     margin-bottom: 30px;
   }
@@ -1442,7 +1444,7 @@ img {
 @media screen and (max-width: 767px) and (min-width: 768px) {
   .list-projekt-item {
     margin: 15px;
-    width: calc((100% - 4 * 15px) / 2);
+    display: none;
   }
 }
 
@@ -1524,12 +1526,6 @@ img {
   padding: 20px 24px;
   border: 1px solid #EEEEEE;
   border-top: none;
-}
-
-.list-projekt-text:nth(:last-child) {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
 }
 
 .list-projekt-category {
