@@ -15,7 +15,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../img/mob.img/Header-img.mob.jpg);
+    url(../../img/mob.img/Header-img.mob.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -28,7 +28,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../img/mob.img/Header-img-mob@2x.jpg);
+      url(../../img/mob.img/Header-img-mob@2x.jpg);
   }
 
   @media screen and (min-width: 481px) {
@@ -36,7 +36,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../img/tablet.img/Header-tablet.jpg);
+      url(../../img/tablet.img/Header-tablet.jpg);
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
@@ -45,7 +45,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../img/tablet.img/Header-tablet@2x.jpg);
+        url(../../img/tablet.img/Header-tablet@2x.jpg);
     }
   }
 
@@ -54,7 +54,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../img/desktop.img/desktop5.jpg);
+      url(../../img/desktop.img/desktop5.jpg);
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
@@ -63,7 +63,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../img/desktop.img/desktop5@2x.jpg);
+        url(../../img/desktop.img/desktop5@2x.jpg);
     }
   }
 }
